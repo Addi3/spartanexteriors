@@ -1,6 +1,0 @@
-{
-    "id": "ait-extras:clock_oak",
-    "category": "ait-extras:clock",
-    "parent": "ait-extras:exterior/clock",
-    "texture": "ait-extras:textures/blockentities/exteriors/clock/clock_oak.png"
-}

@@ -1,6 +1,0 @@
-{
-  "id": "ait-extras:origin_fire",
-  "category": "ait-extras:origin",
-  "parent": "ait-extras:exterior/origin",
-  "texture": "ait-extras:textures/blockentities/exteriors/origin/origin_fire.png"
-}

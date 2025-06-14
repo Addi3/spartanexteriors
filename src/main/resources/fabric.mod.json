@@ -1,30 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "ait-extras",
+  "id": "spartans-exteriors",
   "version": "${version}",
-  "name": "AIT Extras",
-  "description": "Where all the stuff ait doesn't want will go, along with some other stuff",
+  "name": "Spartans Exteriors",
+  "description": "",
   "authors": ["Addi3"],
   "license": "MIT",
-  "icon": "assets/ait-extras/icon.png",
+  "icon": "assets/spartans-exteriors/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "com.aitextras.datagen.AITExtrasDataGenerator"
+      "com.spartan.datagen.SpartanDataGenerator"
     ],
     "client": [
-      "com.aitextras.client.AITExtrasClient"
+      "com.spartan.client.SpartanClient"
     ],
     "main": [
-      "com.aitextras.AITExtras"
+      "com.spartan.Spartan"
     ],
     "ait-main": [
-      "com.aitextras.ait.AITExtrasAddon"
+      "com.spartan.ait.SpartanAddon"
     ]
   },
-  "mixins": [
-    "ait-extras.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

@@ -1,7 +1,0 @@
-{
-    "id": "ait-extras:vanilla_red",
-    "category": "ait-extras:vanilla",
-    "parent": "ait-extras:exterior/vanilla",
-    "texture": "ait-extras:textures/blockentities/exteriors/vanilla/vanilla_red.png",
-    "emission": "ait-extras:textures/blockentities/exteriors/vanilla/vanilla_emission.png"
-}

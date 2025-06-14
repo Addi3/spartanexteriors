@@ -1,0 +1,7 @@
+{
+  "id": "spartan-exteriors:coral",
+  "category": "spartan-exteriors:box",
+  "parent": "spartan-exteriors:exterior/box",
+  "texture": "spartan-exteriors:textures/blockentities/exteriors/box/box_coral.png",
+  "emission": "spartan-exteriors:textures/blockentities/exteriors/box/box_coral_emission.png"
+}

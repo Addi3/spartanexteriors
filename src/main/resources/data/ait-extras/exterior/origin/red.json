@@ -1,7 +1,0 @@
-{
-  "id": "ait-extras:origin_red",
-  "category": "ait-extras:origin",
-  "parent": "ait-extras:exterior/origin",
-  "texture": "ait-extras:textures/blockentities/exteriors/origin/origin_red.png",
-  "emission": "ait-extras:textures/blockentities/exteriors/origin/origin_red_emission.png"
-}
