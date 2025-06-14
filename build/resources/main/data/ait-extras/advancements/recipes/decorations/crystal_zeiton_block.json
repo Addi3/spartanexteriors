@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ait-extras:crystal_zeiton_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zeiton_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ait:zeiton_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zeiton_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ait-extras:crystal_zeiton_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

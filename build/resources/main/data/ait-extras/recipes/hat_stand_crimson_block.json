@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:crimson_fence"
+    }
+  },
+  "pattern": [
+    "FFF",
+    " F ",
+    " F "
+  ],
+  "result": {
+    "item": "ait-extras:hat_stand_crimson_block"
+  },
+  "show_notification": true
+}

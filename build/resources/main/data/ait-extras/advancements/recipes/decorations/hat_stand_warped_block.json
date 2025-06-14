@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ait-extras:hat_stand_warped_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_fence",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ait-extras:hat_stand_warped_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ait-extras:block/extras_crystalline_block"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "spartans-exteriors",
+  "version": "1.0.0-1.20.1-beta",
+  "name": "Spartans Exteriors",
+  "description": "",
+  "authors": ["Addi3"],
+  "license": "MIT",
+  "icon": "assets/spartans-exteriors/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.spartan.datagen.SpartanDataGenerator"
+    ],
+    "client": [
+      "com.spartan.client.SpartanClient"
+    ],
+    "main": [
+      "com.spartan.Spartan"
+    ],
+    "ait-main": [
+      "com.spartan.ait.SpartanAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "yet_another_config_lib_v3": ">=3.6.1+1.20.1-fabric",
+    "minecraft": "1.20.1",
+    "ait": ">=1.1.0",
+    "amblekit": ">=1.1.3-1.20.1-beta"
+  }
+}

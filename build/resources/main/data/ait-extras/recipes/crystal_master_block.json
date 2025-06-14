@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "ait:zeiton_block"
+    },
+    "Z": {
+      "item": "ait:zeiton_shard"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " Z "
+  ],
+  "result": {
+    "item": "ait-extras:crystal_master_block"
+  },
+  "show_notification": true
+}

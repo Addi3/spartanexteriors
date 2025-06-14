@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "D": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DED",
+    "DCD"
+  ],
+  "result": {
+    "item": "ait-extras:extras_monitor_block"
+  },
+  "show_notification": true
+}

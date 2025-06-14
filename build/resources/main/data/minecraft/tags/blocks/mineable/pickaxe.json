@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "ait-extras:crystal_block",
+    "ait-extras:extras_crystalline_block",
+    "ait-extras:crystalline_shard_block",
+    "ait-extras:crystal_zeiton_block",
+    "ait-extras:sun_dial_block",
+    "ait-extras:crystalline_ore",
+    "ait-extras:extras_monitor_block",
+    "ait-extras:crystal_master_block",
+    "ait-extras:extras_screen_monitor_block"
+  ]
+}

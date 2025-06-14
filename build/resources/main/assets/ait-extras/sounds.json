@@ -1,0 +1,82 @@
+{
+  "music/mercury_disc": {
+    "sounds": [
+      "ait-extras:music/mercury_disc"
+    ]
+  },
+  "tardis/classic_box_door_close": {
+    "sounds": [
+      "ait-extras:tardis/classic_box_door_close"
+    ]
+  },
+  "tardis/classic_box_door_open": {
+    "sounds": [
+      "ait-extras:tardis/classic_box_door_open"
+    ]
+  },
+  "tardis/shield_hum": {
+    "sounds": [
+      "ait-extras:tardis/shield_hum"
+    ]
+  },
+  "tardis/travel/classic_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/classic_demat"
+    ]
+  },
+  "tardis/travel/classic_mat": {
+    "sounds": [
+      "ait-extras:tardis/travel/classic_mat"
+    ]
+  },
+  "tardis/travel/drumless_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/drumless_demat"
+    ]
+  },
+  "tardis/travel/fast_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/fast_demat"
+    ]
+  },
+  "tardis/travel/fast_mat": {
+    "sounds": [
+      "ait-extras:tardis/travel/fast_mat"
+    ]
+  },
+  "tardis/travel/minecart_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/minecart_demat"
+    ]
+  },
+  "tardis/travel/minecart_flight": {
+    "sounds": [
+      "ait-extras:tardis/travel/minecart_flight"
+    ]
+  },
+  "tardis/travel/minecart_mat": {
+    "sounds": [
+      "ait-extras:tardis/travel/minecart_mat"
+    ]
+  },
+  "tardis/travel/regen_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/regen_demat"
+    ]
+  },
+  "tardis/travel/type70_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/type70_demat"
+    ]
+  },
+  "tardis/travel/type70_mat": {
+    "sounds": [
+      "ait-extras:tardis/travel/type70_mat"
+    ]
+  },
+  "tardis/travel/xmas_demat": {
+    "sounds": [
+      "ait-extras:tardis/travel/xmas_demat"
+    ]
+  }
+}

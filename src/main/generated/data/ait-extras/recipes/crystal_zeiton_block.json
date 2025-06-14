@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "ait:zeiton_block"
+    },
+    "Z": {
+      "item": "ait:zeiton_shard"
+    }
+  },
+  "pattern": [
+    " Z ",
+    " B ",
+    " Z "
+  ],
+  "result": {
+    "item": "ait-extras:crystal_zeiton_block"
+  },
+  "show_notification": true
+}

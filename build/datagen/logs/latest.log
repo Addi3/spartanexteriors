@@ -1,0 +1,167 @@
+[17:32:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[17:32:14] [main/INFO] (FabricLoader) Loading 53 mods:
+	- ait 1.2.5-1.20.1-beta
+	- ait-extras 1.0.0-1.20.1-beta
+	- amblekit 1.1.8-1.20.1-beta
+	- fabric-api 0.92.3+1.20.1
+	- fabric-api-base 0.4.31+1802ada577
+	- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	- fabric-biome-api-v1 13.0.13+1802ada577
+	- fabric-block-api-v1 1.0.11+1802ada577
+	- fabric-block-view-api-v2 1.0.1+1802ada577
+	- fabric-command-api-v1 1.2.34+f71b366f77
+	- fabric-command-api-v2 2.2.13+1802ada577
+	- fabric-commands-v0 0.2.51+df3654b377
+	- fabric-containers-v0 0.1.65+df3654b377
+	- fabric-content-registries-v0 4.0.12+1802ada577
+	- fabric-convention-tags-v1 1.5.5+1802ada577
+	- fabric-crash-report-info-v1 0.2.19+1802ada577
+	- fabric-data-attachment-api-v1 1.0.1+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.5+1802ada577
+	- fabric-dimensions-v1 2.1.54+1802ada577
+	- fabric-entity-events-v1 1.6.0+1c78457f77
+	- fabric-events-interaction-v0 0.6.3+13a40c6677
+	- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	- fabric-game-rule-api-v1 1.0.40+1802ada577
+	- fabric-gametest-api-v1 1.2.14+1802ada577
+	- fabric-item-api-v1 2.1.28+1802ada577
+	- fabric-item-group-api-v1 4.0.13+1802ada577
+	- fabric-language-kotlin 1.10.19+kotlin.1.9.23
+	- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	- fabric-loot-api-v2 1.2.2+1802ada577
+	- fabric-loot-tables-v1 1.1.46+9e7660c677
+	- fabric-message-api-v1 5.1.9+1802ada577
+	- fabric-mining-level-api-v1 2.1.51+1802ada577
+	- fabric-networking-api-v1 1.3.12+13a40c6677
+	- fabric-networking-v0 0.3.52+df3654b377
+	- fabric-object-builder-api-v1 11.1.4+1802ada577
+	- fabric-particles-v1 1.1.2+1802ada577
+	- fabric-recipe-api-v1 1.0.22+1802ada577
+	- fabric-registry-sync-v0 2.3.4+1802ada577
+	- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	- fabric-resource-loader-v0 0.11.11+fb82e9d777
+	- fabric-screen-handler-api-v1 1.3.31+1802ada577
+	- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.16.10
+	- java 21
+	- minecraft 1.20.1
+	- mixinextras 0.4.1
+	- multidim 2.0.0
+	- queue 1.0.2-1.20
+	- scheduler 1.0.0
+	- yet_another_config_lib_v3 3.6.1+1.20.1-fabric
+[17:32:14] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/addie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:32:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:32:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:32:15] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:32:23] [main/INFO] (YetAnotherConfigLib) Deserializing AITServerConfig from './config/ait-server.json5'
+[17:32:23] [main/INFO] (ait) CategoryRegistry was not initialized, Creating a new instance
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:root
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:takeoff
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:crash
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:break_vegetation
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:place_coral
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:place_energizer
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:enter_tardis
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:redecorate
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:forced_entry
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:sonic_wood
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:pilot_high
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:reach_pilot
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:reach_owner
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:enable_subsystem
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:repair_subsystem
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:engines_phase
+[17:32:24] [main/INFO] (ait) Registering criterion: ait:brand_new
+[17:32:24] [main/INFO] (ait) Initializing Tardis Criterions
+[17:32:24] [main/INFO] (FabricDataGenHelper) Running data generator for ait
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_us)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_us) finished after 33 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_uk)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_uk) finished after 5 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (fr_ca)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (fr_ca) finished after 1 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (fr_fr)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (fr_fr) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_ar)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_ar) finished after 2 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_cl)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_cl) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_ec)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_ec) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_es)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_es) finished after 2 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_mx)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_mx) finished after 1 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_uy)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_uy) finished after 3 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (es_ve)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (es_ve) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_au)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_au) finished after 8 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_ca)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_ca) finished after 8 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_gb)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_gb) finished after 14 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (en_nz)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (en_nz) finished after 8 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (de_de)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (de_de) finished after 1 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (de_at)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (de_at) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (de_ch)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (de_ch) finished after 0 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (nds_de)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (nds_de) finished after 2 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (pt_br)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (pt_br) finished after 14 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (ru_ru)
+[17:32:24] [main/INFO] (Minecraft) Adventures In Time/Language (ru_ru) finished after 6 ms
+[17:32:24] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Language (uk_ua)
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Language (uk_ua) finished after 11 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:item
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:item finished after 111 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:block
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:block finished after 248 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:game_event
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:game_event finished after 1 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:painting_variant
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:painting_variant finished after 0 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:entity_type
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:entity_type finished after 0 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Recipes
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Recipes finished after 22 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Model Definitions
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Model Definitions finished after 92 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Sound Definitions
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Sound Definitions finished after 5 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Advancements
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Advancements finished after 16 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Block Loot Tables
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Block Loot Tables finished after 51 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/Tags for minecraft:point_of_interest_type
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/Tags for minecraft:point_of_interest_type finished after 0 ms
+[17:32:25] [main/INFO] (Minecraft) Starting provider: Adventures In Time/AIT World Generator
+[17:32:25] [main/INFO] (Minecraft) Adventures In Time/AIT World Generator finished after 40 ms
+[17:32:25] [main/INFO] (Minecraft) All providers took: 738 ms
+[17:32:29] [main/INFO] (Minecraft) Caching: total files: 836, old count: 836, new count: 837, removed stale: 0, written: 4
+[17:32:29] [main/INFO] (FabricDataGenHelper) Running data generator for ait-extras
+[17:32:29] [main/INFO] (Minecraft) Starting provider: AIT Extras/Language (en_us)
+[17:32:29] [main/INFO] (Minecraft) AIT Extras/Language (en_us) finished after 107 ms
+[17:32:29] [main/INFO] (Minecraft) Starting provider: AIT Extras/Recipes
+[17:32:36] [main/INFO] (Minecraft) AIT Extras/Recipes finished after 6848 ms
+[17:32:36] [main/INFO] (Minecraft) Starting provider: AIT Extras/Block Loot Tables
+[17:32:37] [main/INFO] (Minecraft) AIT Extras/Block Loot Tables finished after 774 ms
+[17:32:37] [main/INFO] (Minecraft) Starting provider: AIT Extras/Tags for minecraft:block
+[17:32:37] [main/INFO] (Minecraft) AIT Extras/Tags for minecraft:block finished after 119 ms
+[17:32:37] [main/INFO] (Minecraft) Starting provider: AIT Extras/Model Definitions
+[17:32:38] [main/INFO] (Minecraft) AIT Extras/Model Definitions finished after 583 ms
+[17:32:38] [main/INFO] (Minecraft) Starting provider: AIT Extras/Sound Definitions
+[17:32:38] [main/INFO] (Minecraft) AIT Extras/Sound Definitions finished after 111 ms
+[17:32:38] [main/INFO] (Minecraft) Starting provider: AIT Extras/Tags for minecraft:item
+[17:32:38] [main/INFO] (Minecraft) AIT Extras/Tags for minecraft:item finished after 113 ms
+[17:32:38] [main/INFO] (Minecraft) All providers took: 8662 ms
+[17:32:43] [main/INFO] (Minecraft) Caching: total files: 1091, old count: 0, new count: 224, removed stale: 868, written: 223

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "ait:plasmic_material"
+    },
+    "S": {
+      "item": "ait:superheated_zeiton"
+    },
+    "W": {
+      "item": "ait:waypoint_cartridge"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "PWP",
+    "SSS"
+  ],
+  "result": {
+    "item": "ait-extras:recall_disc"
+  },
+  "show_notification": true
+}
