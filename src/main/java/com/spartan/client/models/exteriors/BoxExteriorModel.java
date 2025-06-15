@@ -35,6 +35,8 @@ public class BoxExteriorModel extends ExteriorModel {
 
 		ModelPartData TARDIS = bone.addChild("TARDIS", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 
+		ModelPartData base = TARDIS.addChild("base", ModelPartBuilder.create().uv(0, 0).cuboid(-13.0F, -2.0F, -13.0F, 26.0F, 2.0F, 26.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
+
 		ModelPartData roof = TARDIS.addChild("roof", ModelPartBuilder.create().uv(0, 29).cuboid(-11.0F, 1.5F, -11.0F, 22.0F, 2.0F, 22.0F, new Dilation(0.0F))
 				.uv(0, 54).cuboid(-10.0F, -0.5F, -10.0F, 20.0F, 2.0F, 20.0F, new Dilation(0.0F))
 				.uv(0, 155).cuboid(-10.0F, 0.5F, -10.0F, 20.0F, 2.0F, 20.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, -42.5F, 0.0F));
@@ -317,19 +319,17 @@ public class BoxExteriorModel extends ExteriorModel {
 
 		ModelPartData cube_r51 = pillars.addChild("cube_r51", ModelPartBuilder.create().uv(60, 76).cuboid(-12.0F, -38.0F, -12.0F, 3.0F, 38.0F, 3.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 0.0F, -1.5708F, 0.0F));
 
-		ModelPartData base = TARDIS.addChild("base", ModelPartBuilder.create().uv(0, 0).cuboid(-13.0F, -2.0F, -13.0F, 26.0F, 2.0F, 26.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
-
 		ModelPartData Doors = bone.addChild("Doors", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 
-		ModelPartData left_door = Doors.addChild("left_door", ModelPartBuilder.create().uv(26, 85).cuboid(0.0F, -16.5F, 0.0F, 8.0F, 33.0F, 1.0F, new Dilation(0.0F))
-				.uv(81, 72).cuboid(6.0F, -5.0F, -0.5F, 1.0F, 2.0F, 1.0F, new Dilation(0.0F))
-				.uv(76, 70).cuboid(1.0F, -5.0F, -0.5F, 1.0F, 2.0F, 1.0F, new Dilation(0.0F))
-				.uv(134, 18).cuboid(2.0F, -6.5F, 0.25F, 4.0F, 5.0F, 0.0F, new Dilation(0.0F))
-				.uv(0, 119).cuboid(8.0F, -16.5F, -0.5F, 1.0F, 33.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(-9.0F, -18.5F, -11.0F));
+		ModelPartData left_door = Doors.addChild("left_door", ModelPartBuilder.create().uv(26, 85).cuboid(0.0F, -16.5F, -1.0F, 8.0F, 33.0F, 1.0F, new Dilation(0.0F))
+				.uv(81, 72).cuboid(6.0F, -5.0F, -1.5F, 1.0F, 2.0F, 1.0F, new Dilation(0.0F))
+				.uv(76, 70).cuboid(1.0F, -5.0F, -1.5F, 1.0F, 2.0F, 1.0F, new Dilation(0.0F))
+				.uv(134, 18).cuboid(2.0F, -6.5F, -0.75F, 4.0F, 5.0F, 0.0F, new Dilation(0.0F))
+				.uv(0, 119).cuboid(8.0F, -16.5F, -1.5F, 1.0F, 33.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(-9.0F, -18.5F, -10.0F));
 
 		ModelPartData bone10 = left_door.addChild("bone10", ModelPartBuilder.create().uv(64, 59).cuboid(-5.0F, -4.0F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F))
 				.uv(64, 56).cuboid(-5.0F, -7.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F))
-				.uv(64, 62).cuboid(-5.0F, -3.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.pivot(6.0F, -8.0F, -0.075F));
+				.uv(64, 62).cuboid(-5.0F, -3.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.pivot(6.0F, -8.0F, -1.075F));
 
 		ModelPartData cube_r52 = bone10.addChild("cube_r52", ModelPartBuilder.create().uv(67, 37).cuboid(-3.0F, -0.5F, -0.5F, 6.0F, 1.0F, 1.0F, new Dilation(0.0F)), ModelTransform.of(-2.0F, -7.5F, 0.775F, -0.7854F, 0.0F, 0.0F));
 
@@ -349,35 +349,35 @@ public class BoxExteriorModel extends ExteriorModel {
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 16.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 16.5F, 10.0F));
 
 		ModelPartData bone20 = left_door.addChild("bone20", ModelPartBuilder.create().uv(85, 12).cuboid(-11.0F, -24.0F, -10.5F, 6.0F, 7.0F, 0.0F, new Dilation(0.0F))
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 24.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 24.5F, 10.0F));
 
 		ModelPartData bone21 = left_door.addChild("bone21", ModelPartBuilder.create().uv(85, 12).cuboid(-11.0F, -24.0F, -10.5F, 6.0F, 7.0F, 0.0F, new Dilation(0.0F))
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 32.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(12.0F, 32.5F, 10.0F));
 
-		ModelPartData right_door = Doors.addChild("right_door", ModelPartBuilder.create().uv(86, 81).cuboid(-8.0F, -16.5F, 0.0F, 8.0F, 33.0F, 1.0F, new Dilation(0.0F))
-				.uv(89, 50).cuboid(-5.0F, -5.0F, 0.25F, 2.0F, 2.0F, 0.0F, new Dilation(0.0F))
-				.uv(89, 29).cuboid(-8.0F, -5.5F, -1.0F, 1.0F, 3.0F, 1.0F, new Dilation(0.0F))
-				.uv(94, 29).cuboid(-8.0F, -1.5F, -1.0F, 1.0F, 3.0F, 1.0F, new Dilation(0.0F))
-				.uv(4, 119).cuboid(-9.0F, -16.5F, -0.5F, 1.0F, 33.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(9.0F, -18.5F, -11.0F));
+		ModelPartData right_door = Doors.addChild("right_door", ModelPartBuilder.create().uv(86, 81).cuboid(-8.0F, -16.5F, -1.0F, 8.0F, 33.0F, 1.0F, new Dilation(0.0F))
+				.uv(89, 50).cuboid(-5.0F, -5.0F, -0.75F, 2.0F, 2.0F, 0.0F, new Dilation(0.0F))
+				.uv(89, 29).cuboid(-8.0F, -5.5F, -2.0F, 1.0F, 3.0F, 1.0F, new Dilation(0.0F))
+				.uv(94, 29).cuboid(-8.0F, -1.5F, -2.0F, 1.0F, 3.0F, 1.0F, new Dilation(0.0F))
+				.uv(4, 119).cuboid(-9.0F, -16.5F, -1.5F, 1.0F, 33.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(9.0F, -18.5F, -10.0F));
 
-		ModelPartData bone3 = right_door.addChild("bone3", ModelPartBuilder.create().uv(85, 12).cuboid(-11.0F, -24.0F, -10.5F, 6.0F, 7.0F, 0.0F, new Dilation(0.0F))
+		ModelPartData bone2 = right_door.addChild("bone2", ModelPartBuilder.create().uv(85, 12).cuboid(-11.0F, -24.0F, -10.5F, 6.0F, 7.0F, 0.0F, new Dilation(0.0F))
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 16.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 16.5F, 10.0F));
 
 		ModelPartData bone9 = right_door.addChild("bone9", ModelPartBuilder.create().uv(64, 59).cuboid(-5.0F, -4.0F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F))
 				.uv(64, 56).cuboid(-5.0F, -7.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F))
-				.uv(64, 62).cuboid(-5.0F, -3.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.pivot(-2.0F, -8.0F, -0.075F));
+				.uv(64, 62).cuboid(-5.0F, -3.5F, 0.55F, 6.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.pivot(-2.0F, -8.0F, -1.075F));
 
 		ModelPartData cube_r59 = bone9.addChild("cube_r59", ModelPartBuilder.create().uv(67, 37).cuboid(-3.0F, -0.5F, -0.5F, 6.0F, 1.0F, 1.0F, new Dilation(0.0F)), ModelTransform.of(-2.0F, -7.5F, 0.775F, -0.7854F, 0.0F, 0.0F));
 
@@ -397,13 +397,13 @@ public class BoxExteriorModel extends ExteriorModel {
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 24.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 24.5F, 10.0F));
 
 		ModelPartData bone18 = right_door.addChild("bone18", ModelPartBuilder.create().uv(85, 12).cuboid(-11.0F, -24.0F, -10.5F, 6.0F, 7.0F, 0.0F, new Dilation(0.0F))
 				.uv(84, 18).cuboid(-11.0F, -17.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(78, 12).cuboid(-11.0F, -24.0F, -11.0F, 6.0F, 0.0F, 1.0F, new Dilation(0.0F))
 				.uv(84, 11).cuboid(-11.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F))
-				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 32.5F, 11.0F));
+				.uv(90, 11).cuboid(-5.0F, -24.0F, -11.0F, 0.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(4.0F, 32.5F, 10.0F));
 		return TexturedModelData.of(modelData, 256, 256);
 	}
 

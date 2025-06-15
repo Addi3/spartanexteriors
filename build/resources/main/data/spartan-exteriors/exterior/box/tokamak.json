@@ -1,0 +1,7 @@
+{
+  "id": "spartan-exteriors:tokamak",
+  "category": "spartan-exteriors:box",
+  "parent": "spartan-exteriors:exterior/box",
+  "texture": "spartan-exteriors:textures/blockentities/exteriors/box/box_tokamak.png",
+  "emission": "spartan-exteriors:textures/blockentities/exteriors/box/box_tokamak_emission.png"
+}

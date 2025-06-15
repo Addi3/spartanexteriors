@@ -6,7 +6,6 @@
   "description": "",
   "authors": ["Addi3"],
   "license": "MIT",
-  "icon": "assets/spartans-exteriors/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [

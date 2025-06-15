@@ -22,7 +22,9 @@ public class SpartanDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider((((output, registriesFuture) -> {
             AmbleLanguageProvider provider = new AmbleLanguageProvider(output, LanguageType.EN_US);
 
-            provider.addTranslation("exterior.spartan-exteriors.box", "Box");
+            provider.addTranslation("exterior.spartan-exterior.box", "Box");
+            provider.addTranslation("exterior.spartan-exterior.coral", "Box (Coral)");
+            provider.addTranslation("exterior.spartan-exterior.tokamak", "Box (Tokamak)");
 
 
 

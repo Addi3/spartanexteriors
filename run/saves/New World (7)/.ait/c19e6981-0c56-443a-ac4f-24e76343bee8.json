@@ -32,7 +32,7 @@
   },
   "exterior": {
     "category": "spartan-exteriors:box",
-    "variant": "spartan-exteriors:coral",
+    "variant": "spartan-exteriors:exterior/box",
     "id": "EXTERIOR"
   },
   "handlers": {
@@ -87,19 +87,19 @@
       "maxSpeed": 7,
       "vGroundSearch": "CEILING",
       "hGroundSearch": true,
-      "hammerUses": -15,
+      "hammerUses": -65,
       "id": "TRAVEL"
     },
     "DOOR": {
       "locked": false,
       "previouslyLocked": false,
       "deadlocked": false,
-      "doorState": "BOTH",
+      "doorState": "CLOSED",
       "leftDoorRot": {
-        "value": 1.0
+        "value": 0.0
       },
       "rightDoorRot": {
-        "value": 1.0
+        "value": 0.0
       },
       "id": "DOOR"
     },
@@ -119,6 +119,22 @@
         "221c55bf-67e1-303c-b4e6-e7a280e2f738": {
           "level": 500,
           "type": "OWNER"
+        },
+        "bfc3689a-f20e-3bc2-bef0-1081426b0c68": {
+          "level": 126,
+          "type": "NEUTRAL"
+        },
+        "56f01d2a-1301-31e7-9d05-beb3615c471c": {
+          "level": 126,
+          "type": "NEUTRAL"
+        },
+        "575973e5-e497-3cb3-bb63-d114ffcff0b1": {
+          "level": 126,
+          "type": "NEUTRAL"
+        },
+        "ca1bc45b-4820-318c-8fd3-5eba4f447561": {
+          "level": 129,
+          "type": "NEUTRAL"
         }
       },
       "messageEnabled": true,
@@ -378,7 +394,7 @@
     },
     "SUBSYSTEM": {
       "ENGINE": {
-        "durability": 1248.0,
+        "durability": 1242.0,
         "id": "ENGINE",
         "enabled": true
       },
