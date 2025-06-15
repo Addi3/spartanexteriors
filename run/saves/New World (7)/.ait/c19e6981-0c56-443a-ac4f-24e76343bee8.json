@@ -87,7 +87,7 @@
       "maxSpeed": 7,
       "vGroundSearch": "CEILING",
       "hGroundSearch": true,
-      "hammerUses": -65,
+      "hammerUses": -67,
       "id": "TRAVEL"
     },
     "DOOR": {
@@ -134,6 +134,10 @@
         },
         "ca1bc45b-4820-318c-8fd3-5eba4f447561": {
           "level": 129,
+          "type": "NEUTRAL"
+        },
+        "78efad11-ed05-36dd-89e2-0372af3e07e9": {
+          "level": 126,
           "type": "NEUTRAL"
         }
       },
