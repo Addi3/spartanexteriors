@@ -1,0 +1,7 @@
+{
+  "id": "spartan-exteriors:copper",
+  "category": "spartan-exteriors:box",
+  "parent": "spartan-exteriors:exterior/box",
+  "texture": "spartan-exteriors:textures/blockentities/exteriors/box/box_copper.png",
+  "emission": "spartan-exteriors:textures/blockentities/exteriors/box/box_copper_emission.png"
+}

@@ -32,7 +32,7 @@
   },
   "exterior": {
     "category": "spartan-exteriors:box",
-    "variant": "spartan-exteriors:exterior/box",
+    "variant": "spartan-exteriors:copper",
     "id": "EXTERIOR"
   },
   "handlers": {
@@ -87,7 +87,7 @@
       "maxSpeed": 7,
       "vGroundSearch": "CEILING",
       "hGroundSearch": true,
-      "hammerUses": -67,
+      "hammerUses": -69,
       "id": "TRAVEL"
     },
     "DOOR": {
